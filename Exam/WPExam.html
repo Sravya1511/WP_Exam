@@ -1,0 +1,226 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+
+    li{
+      font-size: 20px;
+
+    }
+    .dotted {
+	border: 1px solid black;
+    }
+
+    .portrait {
+    height: 90px;
+    width: 310px;
+    }
+    div.solid {border-style: solid;}
+    div.ex1 {
+    border-style: solid;
+    background-color: lightblue;
+    width: 110px;
+    height: 110px;
+    overflow: scroll;
+}
+
+    .font {
+    	font-size: 30px;
+    	text-align: center;
+    	border-style: solid
+    }
+    .noborder {
+    	font-size: 30px;
+    	text-align: center;
+    	/*border-style: solid*/
+    }
+
+    .center {
+      display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  border-radius: 30%;
+	  width: 40%;
+    }
+    .bottom-right {
+	  position: absolute;
+	  bottom: 8px;
+	  right: 16px;
+    }
+
+    .contain {
+	  position: relative;
+	  text-align: right;
+	  color: black;
+    }
+
+    #example1 {
+	  border: 1px solid;
+	  padding: 10px;
+	  box-shadow: 5px 10px 8px #888888;
+    }
+
+    </style>
+</head>
+
+<body class = "container-fluid">
+	<div class = "row">
+
+		<div id = "example1" class = "col-sm-4" style = " height: 660px;">
+
+			<div class = "solid" style = "width:100%; height:45%;">
+            <img src="Sravya.jpg" alt="Hello" class="center" width = "300" heigth = "200">
+            <p style =  "font-size: 25px; text-align: center;"> Sravya Bhaskara </p>
+			</div>
+
+			<div class = "solid" style = "width:100%; height:55%;">
+				<p> </p>
+				<p style = "font-size: 25px; text-align: center;"> Things to know about me!!!
+				<ul style = "list-style-type: disc">
+                <li>Versatile</li>
+                <li>Confident</li>
+                <li>Experienced in </li>
+                <li>Worked as <b> Operations Executive </b></li>
+                <li>Worked as <b> Team Leader </b></li>
+                <li>Worked as <b> Operations Executive </b></li>
+                </ul>
+            </p>
+			</div>
+
+		</div>
+
+		<div class = "col-sm-8" style = " height: 650px;">
+            <div style = "height:20%;" class = "noborder">
+            	<p> </p>
+             My Journey So Far.....
+             <p style = "font-size: 20px; text-align: center;"> I have learned everything through experience, which is always the best way to learn. </p>
+             <hr class = "dotted"/>
+            </div>
+
+            <div style = "display: flex; height:40%;">
+
+            	<div class = "ex1" style = "width:33.33%; height:100%;background-color: lightgrey">
+	                <div class = "contain">
+	                <img src="cspp.jpg" alt="Hello" class = "portrait">
+	                <div class="bottom-right">CSPP</div>
+	                </div>
+	                <ul style = "list-style-type: disc">
+	                <li>Innovative</li>
+	                <li>Content Based</li>
+	                <li>Well Structured</li>
+	                <li>Learnt a Lot!</li>
+	                <li>Good Experience!</li>
+	                <li>Application Oriented!!</li>
+                    </ul>
+            	</div>
+
+            	<div class = "ex1" style = "width:33.33%; height:100%; background-color: lightgrey">
+            		<div class = "contain">
+	                <img src="dsa.png" alt="Hello" class = "portrait">
+	                <div class="bottom-right">ADS</div>
+	                </div>
+            	    <!-- <img src="dsa.png" alt="Hello" class = "portrait"> -->
+            	    <ul style = "list-style-type: disc">
+            	    <li>Learnt a Lot!</li>
+	                <li>Good Experience!</li>
+	                <li>Application Oriented!!</li>
+	                <li>Innovative</li>
+	                <li>Content Based</li>
+	                <li>Well Structured</li>
+                    </ul>
+            	</div>
+
+            	<div class = "ex1" style = "width:33.33%; height:100%; background-color: lightgrey">
+            	    <!-- <img src="dbms.png" alt="Hello" class = "portrait"> -->
+            	    <div class = "contain">
+	                <img src="dbms.png" alt="Hello" class = "portrait">
+	                <div class="bottom-right"> DBMS </div>
+	                </div>
+            	    <ul style = "list-style-type: disc">
+	                <li>Well Structured</li>
+	                <li>Learnt a Lot!</li>
+	                <li>Good Experience!</li>
+	                <li>Application Oriented!!</li>
+	                <li>Content Based</li>
+	                <li>Innovative </li>
+
+
+                    </ul>
+            	</div>
+
+
+            </div>
+
+            <div style = "height:40%; display: flex;">
+
+            	<div class = "ex1" style = "width:33.33%; height:100%; background-color: lightgrey">
+            		<!-- <img src="ics.jpg" alt="Hello" class = "portrait"> -->
+            		<div class = "contain">
+	                <img src="ics.jpg" alt="Hello" class = "portrait">
+	                <div class="bottom-right">ICS</div>
+	                </div>
+            	    <ul style = "list-style-type: disc">
+	                <li>Innovative</li>
+	                <li>Content Based</li>
+	                <li>Well Structured</li>
+	                <li>Enjoyed learning</li>
+	                <li>Activities were interesting</li>
+	                <li>Well Structured</li>
+                    </ul>
+            	</div>
+
+            	<div class = "ex1" style = "width:33.33%; height:100%; background-color: lightgrey">
+            		<!-- <img src="cnf.jpg" alt="Hello" class = "portrait"> -->
+            		<div class = "contain">
+	                <img src="cnf.jpg" alt="Hello" class = "portrait">
+	                <div class="bottom-right">CNF</div>
+	                </div>
+            	    <ul style = "list-style-type: disc">
+	                <li>Innovative</li>
+	                <li>Content Based</li>
+	                <li>Well Structured</li>
+	                <li>Concepts were good</li>
+	                <li>Learnt a lot!</li>
+	                <li>Worked efficiently</li>
+                    </ul>
+            	</div>
+
+            	<div class = "ex1" style = "width:33.33%; height:100%; background-color: lightgrey">
+            		<!-- <img src="Cybersecurity.png" alt="Hello" class = "portrait"> -->
+                    <div class = "contain">
+	                <img src="Cybersecurity.png" alt="Hello" class = "portrait">
+	                <div class="bottom-right">CS</div>
+	                </div>
+            	    <ul style = "list-style-type: disc">
+	                <li>Innovative</li>
+	                <li>Content Based</li>
+	                <li>Well Structured</li>
+	                <li>Innovative</li>
+	                <li>Content Based</li>
+	                <li>Well Structured</li>
+                    </ul>
+            	</div>
+
+            </div>
+
+
+
+
+        <div>
+
+		</div>
+	</div>
+
+</body></html>
+
+
+
+
